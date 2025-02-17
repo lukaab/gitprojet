@@ -1,11 +1,11 @@
-# === 📂 Node.js et gestionnaires de paquets ===
+# === Node.js et gestionnaires de paquets ===
 node_modules/
 package-lock.json
 pnpm-lock.yaml
 yarn.lock
 .npmrc
 
-# === 🏗️ Build / Dist / Cache ===
+# ===️ Build / Dist / Cache ===
 dist/
 build/
 .cache/
@@ -19,7 +19,7 @@ out/
 .vscode-test/
 coverage/
 
-# === ⚙️ Configurations locales et IDE ===
+# ===️ Configurations locales et IDE ===
 *.log
 *.swp
 *.swo
@@ -29,7 +29,7 @@ coverage/
 *.sublime-workspace
 *.sublime-project
 
-# === ⚠️ Environnements sensibles ===
+# ==️ Environnements sensibles ===
 .env
 .env.local
 .env.development
@@ -37,8 +37,10 @@ coverage/
 .env.test
 .DS_Store
 Thumbs.db
+!.env.exemple
 
-# === 📜 Système d'exploitation ===
+
+# === Système d'exploitation ===
 *.bak
 *.tmp
 *.log
@@ -46,15 +48,24 @@ Thumbs.db
 ehthumbs.db
 desktop.ini
 
-# === 📷 Images générées ===
+# === Images générées ===
 screenshots/
 assets/generated/
 public/uploads/
 
-# === 📂 Dépendances spécifiques à certains frameworks ===
+# === Dépendances spécifiques à certains frameworks ===
 /public/hot
 /public/storage
 /storage/*.key
 /storage/logs/
 bootstrap/cache/
 vendor/
+
+# === Fichiers compilés ===
+*.o
+*.class
+*.exe
+*.out
+
+
+*.orig
