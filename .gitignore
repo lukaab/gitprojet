@@ -1,0 +1,60 @@
+# === 📂 Node.js et gestionnaires de paquets ===
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+.npmrc
+
+# === 🏗️ Build / Dist / Cache ===
+dist/
+build/
+.cache/
+.temp/
+.vite/
+.next/
+out/
+.svelte-kit/
+.nuxt/
+.storybook/
+.vscode-test/
+coverage/
+
+# === ⚙️ Configurations locales et IDE ===
+*.log
+*.swp
+*.swo
+*.swn
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === ⚠️ Environnements sensibles ===
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.DS_Store
+Thumbs.db
+
+# === 📜 Système d'exploitation ===
+*.bak
+*.tmp
+*.log
+*.~lock.*
+ehthumbs.db
+desktop.ini
+
+# === 📷 Images générées ===
+screenshots/
+assets/generated/
+public/uploads/
+
+# === 📂 Dépendances spécifiques à certains frameworks ===
+/public/hot
+/public/storage
+/storage/*.key
+/storage/logs/
+bootstrap/cache/
+vendor/
