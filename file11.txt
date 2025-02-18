@@ -1,0 +1,1 @@
+conenu fichier11 pour gérer le pb de variable d'environnement vide
