@@ -58,3 +58,11 @@ public/uploads/
 /storage/logs/
 bootstrap/cache/
 vendor/
+
+
+# === Fichiers compilés ===
+
+*.out
+*.exe
+*.class
+*.o
