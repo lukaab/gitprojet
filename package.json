@@ -1,0 +1,16 @@
+{
+  "name": "gitprojet",
+  "version": "1.0.0",
+  "description": "test pour commit signé encore encore Test pour commit signé par massi",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.20.1"
+  }
+}

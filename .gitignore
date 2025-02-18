@@ -1,6 +1,5 @@
 # === 📂 Node.js et gestionnaires de paquets ===
 node_modules/
-package-lock.json
 pnpm-lock.yaml
 yarn.lock
 .npmrc
